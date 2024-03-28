@@ -1,2 +1,8 @@
 # node-mysql-api
-blog api created using node-js , mysql , sequelize ORM  and authentication using tokens 
+
+blog api created using node-js , mysql , sequelize ORM and authentication using tokens
+
+How to create a table with sequelize
+
+npx sequelize-cli model:generate --name Post --attributes title:string,content:text,imageUrl:string,categoryId:integer,userId:integer
+npx sequelize-cli model:generate --name User --attributes name:string,name:string,email:string,password:string
