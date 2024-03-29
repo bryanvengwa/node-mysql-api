@@ -9,8 +9,8 @@ npx sequelize-cli model:generate --name User --attributes name:string,name:strin
 npx sequelize-cli model:generate --name Category --attributes name:string,
 npx sequelize-cli model:generate --name Comment --attributes content:string,postId:integer,userId:integer
 
-how to migrate the database using sequeli
-ze-cli
+how to migrate the database using sequelize-cli
 npx sequelize-cli db:migrate
 
 installed body-parser;
+used to parse json bodies and get data from them
