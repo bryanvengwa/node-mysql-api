@@ -12,3 +12,4 @@ npx sequelize-cli model:generate --name Comment --attributes content:string,post
 
 
 how to migrate the database using sequelize-cli
+npx sequelize-cli db:migrate
