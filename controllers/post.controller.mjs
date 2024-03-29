@@ -1,6 +1,6 @@
 import models from '../models';
 
-function save(request, response, next) {
+export function save(request, response, next) {
   const post = {
     title: request.body.title,
     content: request.body.content,
