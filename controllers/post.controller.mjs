@@ -1,4 +1,4 @@
-import models from '../models';
+// import models from '../models';
 
 export function save(request, response, next) {
   const post = {
@@ -8,13 +8,13 @@ export function save(request, response, next) {
     categoryId: request.body.category_id,
     userId: 1,
   };
-  models.Post.create(post)
-    .then((result) => {
-      response
-        .status(201)
-        .send({ message: 'post created successfully', post: result });
-    })
-    .catch((err) => {
-      response.status(500).send({ message: 'Something went wrong', post: err });
-    });
+  // models.Post.create(post)
+  //   .then((result) => {
+  //     response
+  //       .status(201)
+  //       .send({ message: 'post created successfully', post: result });
+  //   })
+  //   .catch((err) => {
+  //     response.status(500).send({ message: 'Something went wrong', post: err });
+  //   });
 }
