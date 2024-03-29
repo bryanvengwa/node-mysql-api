@@ -14,3 +14,9 @@ npx sequelize-cli db:migrate
 
 installed body-parser;
 used to parse json bodies and get data from them
+
+
+
+
+controller functionality
+-to use a model in a controller you have to first import the model
