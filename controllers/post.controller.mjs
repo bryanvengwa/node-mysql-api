@@ -1,5 +1,7 @@
+import models from '../models'
+
 function save(request, response, next) {
-  const post = {
+  const post = { 
     title: request.body.title,
     content: request.body.content,
     imageUrl: request.body.image_url,
